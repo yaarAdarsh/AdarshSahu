@@ -882,6 +882,10 @@ section,
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
 }
+.fixed-img {
+  height: 200px;          /* Same height for all images */
+  object-fit: cover;      /* Keeps aspect ratio, crops overflow */
+}
 
 /*--------------------------------------------------------------
 # Services Section
